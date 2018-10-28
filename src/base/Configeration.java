@@ -10,9 +10,9 @@ public class Configeration extends SWDFunctions {
 	@BeforeTest
 	
 	public void BeforeTestStart(){
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/Drivers/chromedriver");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"//Driver//chromedriver.exe");
 		driver = new ChromeDriver();
-		driver.get("https://www.facebook.com");
+		driver.get("https://www.facebook.com/");
 		
 		
 	}
