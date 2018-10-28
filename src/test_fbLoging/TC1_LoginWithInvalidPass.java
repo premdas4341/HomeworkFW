@@ -16,8 +16,7 @@ public class TC1_LoginWithInvalidPass extends Configeration{
 		
 		typeByXpath (logIn.emailOrPhone, logInInfo.mobileEmail_value);
 		typeByXpath (logIn.password, logInInfo.invalidPassword_value);
-		clickByXpath (logIn.loginButton);
-		
+		clickByXpath (logIn.loginButton);	
 	
 
 }
