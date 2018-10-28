@@ -5,8 +5,8 @@
     <classes>
       <class name="test_fbLoging.TC1_LoginWithInvalidPass">
         <methods>
-          <include name="beforeTestStart"/>
           <include name="fbLoginWithInvalidPassword"/>
+          <include name="BeforeTestStart"/>
         </methods>
       </class> <!-- test_fbLoging.TC1_LoginWithInvalidPass -->
     </classes>
