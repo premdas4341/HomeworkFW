@@ -2,12 +2,12 @@
 <testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="145" started-at="2018-10-28T01:28:15Z" finished-at="2018-10-28T01:28:15Z">
+  <suite name="Default suite" duration-ms="153" started-at="2018-10-28T01:33:50Z" finished-at="2018-10-28T01:33:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="145" started-at="2018-10-28T01:28:15Z" finished-at="2018-10-28T01:28:15Z">
+    <test name="Default test" duration-ms="153" started-at="2018-10-28T01:33:50Z" finished-at="2018-10-28T01:33:50Z">
       <class name="test_fbLoging.TC1_LoginWithInvalidPass">
-        <test-method status="FAIL" signature="beforeTestStart()[pri:0, instance:test_fbLoging.TC1_LoginWithInvalidPass@39aeed2f]" name="beforeTestStart" is-config="true" duration-ms="91" started-at="2018-10-28T01:28:15Z" finished-at="2018-10-28T01:28:15Z">
+        <test-method status="FAIL" signature="BeforeTestStart()[pri:0, instance:test_fbLoging.TC1_LoginWithInvalidPass@39aeed2f]" name="BeforeTestStart" is-config="true" duration-ms="85" started-at="2018-10-28T01:33:50Z" finished-at="2018-10-28T01:33:50Z">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[The driver executable does not exist: C:\Users\premd\OneDrive\Documents\GitHub\HomeworkFW\Drivers\chromedriver]]>
@@ -22,7 +22,7 @@ at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(
 at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:346)
 at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:91)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-at base.Configeration.beforeTestStart(Configeration.java:16)
+at base.Configeration.BeforeTestStart(Configeration.java:14)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -52,8 +52,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.IllegalStateException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTestStart -->
-        <test-method status="SKIP" signature="fbLoginWithInvalidPassword()[pri:0, instance:test_fbLoging.TC1_LoginWithInvalidPass@39aeed2f]" name="fbLoginWithInvalidPassword" duration-ms="0" started-at="2018-10-28T01:28:15Z" finished-at="2018-10-28T01:28:15Z">
+        </test-method> <!-- BeforeTestStart -->
+        <test-method status="SKIP" signature="fbLoginWithInvalidPassword()[pri:0, instance:test_fbLoging.TC1_LoginWithInvalidPass@39aeed2f]" name="fbLoginWithInvalidPassword" duration-ms="0" started-at="2018-10-28T01:33:50Z" finished-at="2018-10-28T01:33:50Z">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[The driver executable does not exist: C:\Users\premd\OneDrive\Documents\GitHub\HomeworkFW\Drivers\chromedriver]]>
@@ -68,7 +68,7 @@ at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(
 at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:346)
 at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:91)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-at base.Configeration.beforeTestStart(Configeration.java:16)
+at base.Configeration.BeforeTestStart(Configeration.java:14)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
